@@ -106,7 +106,7 @@
           "/Applications/Safari.app"
           "${pkgs.jetbrains.goland}/Applications/Goland.app"
           "${pkgs.jetbrains.pycharm-community}/Applications/Pycharm CE.app"
-          "${pkgs.jetbrains.rustrover}/Applications/RustRover.app"
+          "${pkgs.jetbrains.rust-rover}/Applications/RustRover.app"
           "${pkgs.alacritty}/Applications/Alacritty.app"
           "${pkgs.discord}/Applications/Discord.app"
           "/System/Applications/System Settings.app"
