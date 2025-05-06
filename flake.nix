@@ -155,7 +155,7 @@
             enableRosetta = true;
 
             # User owning the Homebrew prefix
-            user = "jdeal";
+            user = "jacobdeal";
           };
         }
       ];
