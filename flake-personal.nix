@@ -108,7 +108,7 @@
           "${pkgs.jetbrains.pycharm-community}/Applications/Pycharm CE.app"
           "${pkgs.jetbrains.rustrover}/Applications/RustRover.app"
           "${pkgs.alacritty}/Applications/Alacritty.app"
-          "${pkgs.slack}/Applications/Slack.app"
+          "${pkgs.discord}/Applications/Discord.app"
           "/System/Applications/System Settings.app"
         ];
         finder.AppleShowAllExtensions = true;
