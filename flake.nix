@@ -111,10 +111,16 @@
           "${pkgs.discord}/Applications/Discord.app"
           "/System/Applications/System Settings.app"
         ];
+        dock.show-recents = false;
         finder.AppleShowAllExtensions = true;
+        finder.AppleShowAllFiles = true;
         finder.FXPreferredViewStyle = "clmv";
+        finder.FXRemoveOldTrashItems = true;
         loginwindow.GuestEnabled = false;
         loginwindow.LoginwindowText = "Jacob's Hacking Machine";
+        menuExtraClock.ShowDate = 0;
+        menuExtraClock.ShowDayOfWeek = true;
+        menuExtraClock.ShowSeconds = true;
         NSGlobalDomain.KeyRepeat = 2;
         screencapture.location = "~/Pictures/screenshots";
         screensaver.askForPasswordDelay = 10;
