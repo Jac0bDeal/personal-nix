@@ -165,6 +165,7 @@
 
             # User owning the Homebrew prefix
             user = "jacobdeal";
+	  };
         }
       ];
     };
