@@ -99,6 +99,8 @@
 
       security.pam.services.sudo_local.touchIdAuth = true;
 
+      system.primaryUser = "jacobdeal";
+
       system.defaults = {
         dock.autohide = true;
         dock.mru-spaces = false;
