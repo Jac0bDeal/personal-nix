@@ -8,7 +8,7 @@
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew}:
   let
     configuration = { pkgs, config, ... }: {
 
@@ -43,6 +43,9 @@
           pkgs.podman-compose
           pkgs.podman-desktop
           pkgs.python311
+          pkgs.rustc
+          pkgs.rustup
+          pkgs.rustfmt
           pkgs.stow
           pkgs.the-unarchiver
           pkgs.tmux
@@ -56,7 +59,7 @@
           "mas"
         ];
         casks = [
-          "nordvpn"
+          "private-internet-access"
         ];
         masApps = {
           "AdGuard for Safari" = 1440147259;
@@ -162,7 +165,6 @@
 
             # User owning the Homebrew prefix
             user = "jacobdeal";
-          };
         }
       ];
     };
